@@ -1,0 +1,37 @@
+- title: "Cheatsheets"
+  subcategories:
+    - subtitle: "Python"
+      subhref: "/cheatsheets/python.pdf"
+    - subtitle: "Conda"
+      subhref: "/cheatsheets/conda.pdf"
+    - subtitle: "Matplotlib"
+      subhref: "/cheatsheets/matplotlib.pdf"
+    - subtitle: "Pandas"
+      subhref: "/cheatsheets/pandas.pdf"
+    - subtitle: "Seaborn"
+      subhref: "/cheatsheets/seaborn.pdf"
+
+- title: "Links"
+  subcategories:
+    - subtitle: "Piazza"
+      subhref: "https://piazza.com/upenn/fall2020/musa550/home"
+      external: true
+    - subtitle: "Canvas"
+      subhref: "https://canvas.upenn.edu/courses/1533812"
+      external: true
+    - subtitle: "Github"
+      subhref: "https://github.com/MUSA-550-Fall-2020"
+      external: true
+
+- title: "Resources"
+  subcategories:
+    - subtitle: "Software Setup"
+      subhref: "/setup/"
+    - subtitle: "Python Resources"
+      subhref: "/python-resources/"
+
+- title: "Policies"
+  href: "/policies/"
+
+- title: "Course Info"
+  href: "/info/"
