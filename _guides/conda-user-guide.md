@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Getting Started with Conda
+title: Conda User Guide
 permalink: /guides/conda
 ---
 

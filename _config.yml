@@ -12,7 +12,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
-collection:
-  - guides
-  - resources
-  - syllabus
+collections:
+  guides:
+    output: true
+  resources:
+    output: true
+  syllabus:
+    output: true

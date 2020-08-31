@@ -8,8 +8,6 @@ permalink: /resources/setup/
 
 It allows you to easily install Python packages on your laptop using _environments_. A environment allows you to install packages for specific purposes and keep those packages isolated from any other Python packages that might be installed on your laptop. We will create an environment for use during this class that includes all of the Python packages you will need in the course.
 
-## Installing Python
-
 In this course, we will use the Miniconda distribution of Python, which includes Python, `conda`, and a few other essential packages and dependencies. The Miniconda distribution is a lightweight version of the full [Anaconda distribution](https://docs.anaconda.com/anaconda/install/). It is the fastest way to install both Python and `conda` on your local computer.
 
 The differences between the distributions are outlined [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html#anaconda-or-miniconda). The major difference is that the Anaconda distribution will install more than 1,500 of the most common scientific Python packages (many more than we need in this course) and will take up about 3 GB of disk space. Miniconda will only install core Python dependencies (as well as `conda`) and will only take up about 400 MB of disk space.
@@ -53,4 +51,4 @@ We will use Python 3 in this course (version 3.7 to be exact).
 
 The adoption of Python 3, first released in 2008, was very slow, and many users still choose to use Python 2. Python 3 has a lot of great new features, and beginning in 2019, new releases for the majority of the widely-used Python packages no longer support Python 2.
 
-##### Next step: see the [conda user guide](/setup/conda) for more information on managing environments and installing packages.
+### Next step: see the [conda user guide](/guides/conda) for more information on managing environments and installing packages.
