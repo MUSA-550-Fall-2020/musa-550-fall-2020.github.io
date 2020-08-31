@@ -11,3 +11,8 @@ env_name: musa-550-fall-2020
 theme: minima
 plugins:
   - jekyll-feed
+
+collection:
+  - guides
+  - resources
+  - syllabus
