@@ -70,6 +70,7 @@ a.disabled {
 
 </style>
 
+<div style="overflow-x:auto;">
 <table class="my-table dark-border">
     <thead class="dark-border-bottom">
         <tr>
@@ -602,3 +603,4 @@ a.disabled {
     </tbody>
 
 </table>
+</div>
