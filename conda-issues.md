@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Common Conda Issues
-permalink: /conda-issues
+permalink: /conda-issues/
 ---
 
 <nav class="toc">
