@@ -33,11 +33,11 @@
 - title: "Guides"
   subcategories:
     - subtitle: "Conda User Guide"
-      subhref: "/guides/conda/"
+      subhref: "/conda-guide/"
     - subtitle: "Common Conda Issues"
-      subhref: "/guides/conda-issues/"
+      subhref: "/conda-issues/"
     - subtitle: "Jupyter User Guide"
-      subhref: "/guides/jupyter/"
+      subhref: "/jupyter-guide/"
 
 - title: "Syllabus"
   subcategories:
