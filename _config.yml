@@ -13,9 +13,9 @@ plugins:
   - jekyll-feed
 
 collections:
-  guides:
-    output: true
   resources:
     output: true
   syllabus:
+    output: true
+  guides:
     output: true
