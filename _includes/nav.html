@@ -1,9 +1,4 @@
 <style>
-  /* Navbar container */
-  .navbar {
-    overflow: hidden;
-  }
-
   /* The dropdown container */
   .dropdown {
     float: left;
@@ -53,6 +48,19 @@
   .dropdown-content .page-link {
     margin-right: 0px !important;
   }
+
+  @media screen and (max-width: 767px) {
+    .trigger-content {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .site-nav .page-link {
+      margin-left: 0px !important;
+    }
+    .site-nav {
+      text-align: left !important;
+    }
+  }
 </style>
 
 <nav class="site-nav">
@@ -68,53 +76,31 @@
   </label>
 
   <div class="trigger">
-    {% for nav in site.data.nav %} {% if nav.subcategories != null %}
-    <div class="dropdown">
-      <button class="dropbtn page-link">
-        {{ nav.title }}
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        {% for subcategory in nav.subcategories %} {% if subcategory.external %}
-        <a class="page-link" href="{{ subcategory.subhref }}" target="blank_"
-          >{{ subcategory.subtitle }}</a
-        >
-        {% else %}
-        <a class="page-link" href="{{ site.url }}{{ subcategory.subhref }}"
-          >{{ subcategory.subtitle }}</a
-        >
-        {%- endif -%} {%- endfor -%}
-      </div>
-    </div>
-    {% else %}
-    <a class="page-link" href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
-    {%- endif -%} {%- endfor -%}
-  </div>
-</nav>
-
-<!-- <nav>
-  <ul>
-    {% for nav in site.data.nav %} {% if nav.subcategories != null %}
-    <li>
-      <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }} ▼</a>
-      <ul>
-        {% for subcategory in nav.subcategories %}
-        <li>
-          <a href="{{ site.url }}{{ subcategory.subhref }}"
+    <div class="trigger-content">
+      {% for nav in site.data.nav %} {% if nav.subcategories != null %}
+      <div class="dropdown">
+        <button class="dropbtn page-link">
+          {{ nav.title }}
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          {% for subcategory in nav.subcategories %} {% if subcategory.external
+          %}
+          <a class="page-link" href="{{ subcategory.subhref }}" target="blank_"
             >{{ subcategory.subtitle }}</a
           >
-        </li>
-        {% endfor %}
-      </ul>
-    </li>
-    {% elsif nav.title == page.title %}
-    <li class="active">
-      <a href="{{ nav.url }}">{{ nav.title }}</a>
-    </li>
-    {% else %}
-    <li>
-      <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
-    </li>
-    {% endif %} {% endfor %}
-  </ul>
-</nav> -->
+          {% else %}
+          <a class="page-link" href="{{ site.url }}{{ subcategory.subhref }}"
+            >{{ subcategory.subtitle }}</a
+          >
+          {%- endif -%} {%- endfor -%}
+        </div>
+      </div>
+      {% else %}
+      <a class="page-link" href="{{ site.url }}{{ nav.href }}"
+        >{{ nav.title }}</a
+      >
+      {%- endif -%} {%- endfor -%}
+    </div>
+  </div>
+</nav>

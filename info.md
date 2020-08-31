@@ -10,8 +10,9 @@ lectures, office hours, assignments, and grading can be found below.
 ## Class
 
 - Tuesday & Thursdays, 6:00 PM to 7:30 PM
-- Lectures will be via Zoom — links can be found on the [course's
-  Canvas page](https://canvas.upenn.edu/courses/1533812)
+- Lectures will be via Zoom — calendar invites to lectures can be found on the
+  [course's Canvas page](https://canvas.upenn.edu/courses/1533812)
+- Lectures will be recorded and available on Canvas
 
 ## Contact Info
 
@@ -32,7 +33,7 @@ Office hours will be remote using Google Meet / Hangouts.
 
 ## Course Websites
 
-- Main Website: [https://musa-550-fall-2020.github.io](https://musa-550-fall-2020.github.io)
+- Main website: [https://musa-550-fall-2020.github.io](https://musa-550-fall-2020.github.io)
 - Github: [https://github.com/MUSA-550-Fall-2020](https://github.com/MUSA-550-Fall-2020)
 - Piazza: [https://piazza.com/upenn/fall2020/musa550/home](https://piazza.com/upenn/fall2020/musa550/home)
 - Canvas: [https://canvas.upenn.edu/courses/1533812](https://canvas.upenn.edu/courses/1533812)
