@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jupyter User Guide
-permalink: /guides/jupyter
+permalink: /jupyter
 ---
 
 <nav class="toc">

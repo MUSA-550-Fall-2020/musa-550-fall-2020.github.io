@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Conda User Guide
-permalink: /guides/conda
+permalink: /conda
 ---
 
 <nav class="toc">
