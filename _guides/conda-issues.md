@@ -1,20 +1,20 @@
 ---
 layout: page
 title: Common Conda Issues
-permalink: /conda-issues
+permalink: /guides/conda-issues
 ---
 
 <nav class="toc">
   <header><h4 class="nav__title">Guides: Navigation</h4></header>
   <ul class="toc__menu">
     <li>
-      <a href="/conda">Conda User Guide</a>
+      <a href="/guides/conda">Conda User Guide</a>
     </li>
     <li>
-      <a href="/conda-issues">Common Conda Issues</a>
+      <a href="/guides/conda-issues">Common Conda Issues</a>
     </li>
     <li>
-      <a href="/jupyter">Jupyter User Guide</a>
+      <a href="/guides/jupyter">Jupyter User Guide</a>
     </li>
   </ul>
 </nav>
