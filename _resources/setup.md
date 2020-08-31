@@ -51,4 +51,4 @@ We will use Python 3 in this course (version 3.7 to be exact).
 
 The adoption of Python 3, first released in 2008, was very slow, and many users still choose to use Python 2. Python 3 has a lot of great new features, and beginning in 2019, new releases for the majority of the widely-used Python packages no longer support Python 2.
 
-### Next step: see the [conda user guide](/guides/conda) for more information on managing environments and installing packages.
+### Next step: see the [conda user guide](/conda) for more information on managing environments and installing packages.
