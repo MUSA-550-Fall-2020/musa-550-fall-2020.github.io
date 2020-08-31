@@ -95,12 +95,12 @@ a.disabled {
             <td rowspan=2 class='dark-border-bottom dark-border-right'>Exploratory Data Science in Python</td>
             <td class='dark-border-right'>09/01 (Tu)</td>
             <td class='dark-border-right' style="min-width: 110px">    
-               <a href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-1/master?filepath=lecture-1A.ipynb" target='blank_'>
+               <a class='disabled' href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-1/master?filepath=lecture-1A.ipynb" target='blank_'>
                   <img src="https://mybinder.org/badge_logo.svg">
                </a>
             </td>
             <td class="dark-border-right center">
-               <a href="/slides/lecture-1A.html" target='blank_'>
+               <a class='disabled' href="/slides/lecture-1A.html" target='blank_'>
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
             </td>
@@ -110,19 +110,17 @@ a.disabled {
          <tr class="dark-border-bottom">
             <td class='dark-border-right'>09/03 (Th)</td>
             <td class='dark-border-right' style="min-width: 110px">    
-               <a href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-1/master?filepath=lecture-1B.ipynb" target='blank_'>
+               <a class="disabled" href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-1/master?filepath=lecture-1B.ipynb" target='blank_'>
                   <img src="https://mybinder.org/badge_logo.svg">
                </a>
             </td>
             <td class="dark-border-bottom dark-border-right center">
-               <a href="/slides/lecture-1B.html" target='blank_'>
+               <a class="disabled" href="/slides/lecture-1B.html" target='blank_'>
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
             </td>
             <td class='dark-border-bottom'>
-               <a href="https://github.com/MUSA-550-Fall-2020/assignment-1" target='blank_'>
-                  HW #1
-               </a> (required)
+               HW #1 (required)
             </td>
          </tr>
          <!-- Week 2A -->

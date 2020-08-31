@@ -26,12 +26,22 @@
 - title: "Resources"
   subcategories:
     - subtitle: "Software Setup"
-      subhref: "/setup/"
+      subhref: "/resources/setup/"
     - subtitle: "Python Resources"
-      subhref: "/python-resources/"
+      subhref: "/resources/python"
 
-- title: "Policies"
-  href: "/policies/"
+- title: "Guides"
+  subcategories:
+    - subtitle: "Conda User Guide"
+      subhref: "/guides/conda/"
+    - subtitle: "Common Conda Issues"
+      subhref: "/guides/conda-issues/"
+    - subtitle: "Jupyter User Guide"
+      subhref: "/guides/jupyter/"
 
-- title: "Course Info"
-  href: "/info/"
+- title: "Syllabus"
+  subcategories:
+    - subtitle: "Course Info"
+      subhref: "/syllabus/info/"
+    - subtitle: "Policies"
+      subhref: "/syllabus/policies/"
