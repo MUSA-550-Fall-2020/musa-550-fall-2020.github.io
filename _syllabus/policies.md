@@ -8,7 +8,7 @@ permalink: /syllabus/policies/
 
 - **Please add the following text into the subject line of emails to us:
   [MUSA550]**. This will help us make sure we don't miss your email!
-- We will use Piazza for questions related to lecture material and assignments.
+- **We will use Piazza** for questions related to lecture material and assignments.
 - To prevent code copying, please do not post long, complete code examples to Piazza.
 - Anonymous posting is enabled on Piazza — if you have a question that requires
   a full code example, please use the anonymous feature to post the question.
