@@ -17,5 +17,5 @@ collections:
     output: true
   syllabus:
     output: true
-  guides:
+  test:
     output: true
