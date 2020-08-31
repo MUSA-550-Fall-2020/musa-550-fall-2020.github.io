@@ -120,7 +120,7 @@ a.disabled {
                </a>
             </td>
             <td class='dark-border-bottom'>
-               HW #1 (required)
+               Assign HW #1 (required)
             </td>
          </tr>
          <!-- Week 2A -->
@@ -158,7 +158,7 @@ a.disabled {
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
             </td>
-            <td class='dark-border-bottom'>HW #2 (required)</td>
+            <td class='dark-border-bottom'>Assign HW #2 (required)</td>
          </tr>
         <!-- Week 3A -->
         <tr>
@@ -232,7 +232,7 @@ a.disabled {
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
             </td>
-            <td class='dark-border-bottom'>HW #3 (required)</td>
+            <td class='dark-border-bottom'>Assign HW #3 (required)</td>
          </tr>
          <!-- Week 5A -->
         <tr>
@@ -306,7 +306,7 @@ a.disabled {
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
             </td>
-            <td class='dark-border-bottom'>HW #4 (optional)</td>
+            <td class='dark-border-bottom'>Assign HW #4 (optional)</td>
          </tr>
          <!-- Week 7A -->
         <tr>
@@ -380,7 +380,7 @@ a.disabled {
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
             </td>
-            <td class='dark-border-bottom'>HW #5 (optional)</td>
+            <td class='dark-border-bottom'>Assign HW #5 (optional)</td>
          </tr>
          <!-- Week 9A -->
         <tr>
@@ -454,7 +454,7 @@ a.disabled {
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
             </td>
-            <td class='dark-border-bottom'>HW #6 (optional)</td>
+            <td class='dark-border-bottom'>Assign HW #6 (optional)</td>
          </tr>
          <!-- Week 11A -->
         <tr>
@@ -528,7 +528,7 @@ a.disabled {
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
             </td>
-            <td class='dark-border-bottom'>HW #7 (required)</td>
+            <td class='dark-border-bottom'>Assign HW #7 (required)</td>
          </tr>
          <!-- Week 13 -->
         <tr class="dark-border-bottom">
