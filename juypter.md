@@ -8,13 +8,13 @@ permalink: /jupyter
   <header><h4 class="nav__title">Guides: Navigation</h4></header>
   <ul class="toc__menu">
     <li>
-      <a href="/guides/conda">Conda User Guide</a>
+      <a href="/conda">Conda User Guide</a>
     </li>
     <li>
-      <a href="/guides/conda-issues">Common Conda Issues</a>
+      <a href="/conda-issues">Common Conda Issues</a>
     </li>
     <li>
-      <a href="/guides/jupyter">Jupyter User Guide</a>
+      <a href="/jupyter">Jupyter User Guide</a>
     </li>
   </ul>
 </nav>
