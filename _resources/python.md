@@ -12,7 +12,7 @@ The following tutorials assume no background in Python and provide a fairly comp
 
 - [Practical Python Programming](https://dabeaz-course.github.io/practical-python/Notes/Contents.html) by [David Beazley](https://twitter.com/dabeaz)
 - [Python 3 Introductory Course](https://www.sololearn.com/Course/Python/) by SoloLearn (works in the browser)
-- [Scientific Python Basics](https://bids.github.io/2016-01-14-berkeley/python/00-python-intro.html) from the Berkeley Institute for Data Science
+- [Scientific Python Basics](https://bids.github.io/2016-01-14-berkeley/python/00-python-intro.html) from the Berkeley Institute for Data Science ([notebook version](https://bids.github.io/2016-01-14-berkeley/python/00-python-intro.ipynb))
 - [Python for Social Science](https://gawron.sdsu.edu/python_for_ss/course_core/book_draft/index.html) (in particular, the first four chapters)
 
 ## More Advanced Resources
