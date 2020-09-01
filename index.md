@@ -45,22 +45,19 @@ sections:
 
 <style>
 .dark-border-bottom {
-   border-bottom: 2px solid #666;
+   border-bottom: 3px solid #666 !important;
 }
 .dark-border {
-   border: 2px solid #666;
+   border: 3px solid #666 !important;
 }
 .dark-border-right {
-   border-right: 2px solid #666;
+   border-right: 3px solid #666 !important;
 }
 .center {
-   text-align: center;
+   text-align: center !important;
 }
 .wrapper {
-   max-width: 850px
-}
-.my-table {
-   width: 100%
+   max-width: 850px !important;
 }
 a.disabled {
   pointer-events: none;
