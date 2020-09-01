@@ -28,8 +28,9 @@ installed.
 On this page, I'll discuss two common issues when starting out with Jupyter
 notebooks: launching a notebook and ensuring the right files are available.
 
-For a guide to the user interface of Jupyter notebook, see the
-[documentation](https://jupyter-notebook.readthedocs.io/en/stable/ui_components.html).
+I encourage you to go through the official
+[user guide](https://jupyter.readthedocs.io/en/latest/content-quickstart.html)
+for a more in depth guide to the notebook.
 
 ## Launching a Jupyter notebook
 
