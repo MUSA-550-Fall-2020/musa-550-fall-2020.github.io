@@ -14,9 +14,9 @@ permalink: /syllabus/policies/
   a full code example, please use the anonymous feature to post the question.
 - We will also use Piazza for announcements — please make sure your
   notifications are turned on and you check the website frequently. This will
-  be the primary method of communication for course-wide communication.
-- If larger-scale or conceptual questions on assignments or lecture material,
-  please set up a time to discuss during office hours.
+  be the primary method of communication for course-wide announcements.
+- If you have larger-scale or conceptual questions on assignments or lecture
+  material, please set up a time to discuss during office hours.
 
 ## Group Work
 
