@@ -32,6 +32,8 @@
 
 - title: "Guides"
   subcategories:
+    - subtitle: "From Zero to Python"
+      subhref: "/guides/zero-to-python"
     - subtitle: "Conda User Guide"
       subhref: "/guides/conda"
     - subtitle: "Common Conda Issues"

@@ -28,9 +28,15 @@ installed.
 On this page, I'll discuss two common issues when starting out with Jupyter
 notebooks: launching a notebook and ensuring the right files are available.
 
-I encourage you to go through the official
-[user guide](https://jupyter.readthedocs.io/en/latest/content-quickstart.html)
-for a more in depth guide to the notebook.
+I **strongly encourage** you to go through the official documentation for the Jupyter notebook:
+
+- [Introduction](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#introduction)
+- [Starting the notebook server](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#starting-the-notebook-server)
+- [Creating a new document](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#creating-a-new-notebook-document)
+- [Opening notebooks](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#opening-notebooks)
+- [Notebook user interface](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#notebook-user-interface)
+- [Structure of a notebook document](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#structure-of-a-notebook-document)
+- [User interface components](https://jupyter-notebook.readthedocs.io/en/stable/ui_components.html)
 
 ## Launching a Jupyter notebook
 
@@ -48,27 +54,34 @@ conda activate {{ site.env_name }}
 jupyter notebook
 ```
 
-This will create the local Jupyter server. If it does not open in a browser,
+This will create the local Jupyter server and should launch
+the _Jupyter dashboard_. If it does not open in a browser,
 copy the link that is output by the command into your favorite browser.
 Typically, the server will be running at http://localhost:8080.
+The dashboard should like look this:
+
+<img src="https://jupyter.readthedocs.io/en/latest/_images/tryjupyter_file.png">
 
 Once the server is running, you can create a new notebook and get started!
 
-### The current directory
+A new notebook can be created either from the dashboard, or using
+the File ‣ New menu option from within an active notebook. The new notebook is
+created within the same directory and will open in a new browser tab.
 
-The notebook will execute code from the current working directory (the directory
-that the notebook was launched from). If using relative file paths to load the
-data, the path should be relative to this working directory. From within the
-Jupyter notebook, you can find out the current working directory by running the
-following command in a cell:
+<img src="https://jupyter-notebook.readthedocs.io/en/stable/_images/new-notebook.gif">
 
-```
-pwd
-```
+[Source: Jupyter Notebook documentation](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#starting-the-notebook-server)
+
+The following shows the basic user interfaces of a Jupyter notebook:
+
+<img src="https://jupyter-notebook.readthedocs.io/en/stable/_images/blank-notebook-ui.png">
+
+For detailed explanations of these components, see the [Jupyter notebook documentation](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#notebook-user-interface) on the
+user interface. There is also a [more detailed section](https://jupyter-notebook.readthedocs.io/en/stable/ui_components.html) on the user interface components.
 
 ## Changing the Jupyter notebook start-up folder
 
-By default, the Jupyter notebook launches from your home directory. When you
+By default, the Jupyter notebook launches from the home directory. When you
 see the Notebook dashboard, you should see all of the files in this
 folder.
 
