@@ -195,7 +195,8 @@ conda](#starting-and-running-conda) section above for more detail.
 
 ### Getting help with the conda command
 
-The `conda` command has a built-in help function. From the terminal run,
+The `conda` command has a built-in help function. From the command line
+(Anaconda Prompt on Windows or Terminal on MacOS) run,
 
 ```
 conda --help
@@ -249,7 +250,8 @@ to install packages, use: `conda install --help`.
 The first thing you should do is make sure you are running the latest `conda`
 version.
 
-From the command line, run
+From the command line (Anaconda Prompt on
+Windows or Terminal on MacOS), run
 
 ```
 conda update -n base -c defaults conda
@@ -258,8 +260,9 @@ conda update -n base -c defaults conda
 ### Listing the available environments
 
 The default environment when first installing Anaconda is called `'base'`. You
-can list the currently installed Python environments using the following
-command:
+can list the currently installed Python environments by running the following
+command from the command line (Anaconda Prompt on
+Windows or Terminal on MacOS):
 
 ```
 conda env list
@@ -284,7 +287,8 @@ local computer using the environment file stored in the cloud on anaconda.org.
 
 First, we need to make sure the `anaconda-client` package is installed locally.
 This will ensure that `conda` can interface with [anaconda.org](anaconda.org).
-From the terminal, run:
+From the command line (Anaconda Prompt on
+Windows or Terminal on MacOS), run:
 
 ```
 conda install anaconda-client -n base
@@ -302,7 +306,9 @@ should now see the `'{{ site.env_name }}'` environment listed.
 ### Activating your environment
 
 Environments must first be "activated" before the packages are available to use.
-To activate the environment for this course, you can run:
+To activate the environment for this course, you can run the following
+from the command line (Anaconda Prompt on
+Windows or Terminal on MacOS):
 
 ```
 conda activate {{ site.env_name }}
@@ -316,6 +322,8 @@ Python.
 To see the active environment, [list the available environments](#listing-the-available-environments).
 The active environment will be listed with a '\*' next to its name.
 
+From the command line (Anaconda Prompt on Windows or Terminal on MacOS),
+
 ```
 conda env list
 ```
@@ -323,7 +331,9 @@ conda env list
 ### Listing the installed packages
 
 If you have already [activated the {{ site.env_name }} environment](#activating-your-environment),
-you can list all of the installed packages using:
+you can list all of the installed packages.
+
+From the command line (Anaconda Prompt on Windows or Terminal on MacOS),
 
 ```
 conda list
@@ -331,7 +341,8 @@ conda list
 
 ### Activating the base environment
 
-To activate the `'base'` default environment, simply run:
+To activate the `'base'` default environment, run from the command line (Anaconda Prompt on
+Windows or Terminal on MacOS):
 
 ```
 conda deactivate
@@ -346,7 +357,8 @@ when using Python.
 Note that you cannot create a new environment with the same name as an existing
 environment. If your environment becomes corrupted or you run into issues, it is
 often easiest to delete the environment and start over. To do, you can run the
-following commands:
+following commands from the command line (Anaconda Prompt on
+Windows or Terminal on MacOS):
 
 ```
 conda deactivate
@@ -362,7 +374,9 @@ The environment we are using throughout the course might be need to be
 updated during the course. For example, we might want to update to include
 a newly released version of a package.
 
-You can update your local environment by running the following command:
+You can update your local environment via the following command.
+From the command line (Anaconda Prompt on
+Windows or Terminal on MacOS):
 
 ```
 conda env update pennmusa/{{ site.env_name }}
@@ -374,9 +388,9 @@ stored in the cloud for the course.
 
 ### Installing specific packages
 
-You shouldn't need to install any individual packages into the `'{{ site.env_name }}'` environment.
-But for reference, you could install specific packages into the active environment
-using:
+You shouldn't need to install any individual packages into the `'{{ site.env_name }}'` environment. But for reference, you could install specific
+packages into the active environment using from the command line (Anaconda Prompt on
+Windows or Terminal on MacOS):
 
 ```
 conda install package_name

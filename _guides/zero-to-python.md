@@ -23,9 +23,10 @@ Jupyter notebook, and using the notebook to write your own Python code.
    packages we'll need in this course (a group of packages is known as an
    _environment_ in `conda`-speak). Note that you'll be using the command line (either
    the Anaconda Prompt in Windows or Terminal app in MacOS) to run `conda` and
-   create your environment.
+   create your environment. More info on running `conda` commands from the command line
+   is available [here](https://musa-550-fall-2020.github.io/guides/conda#starting-and-running-conda).
 1. **Activate the course's environment**
-   [[Instruction]](https://musa-550-fall-2020.github.io/guides/conda#activating-your-environment):
+   [[Instructions]](https://musa-550-fall-2020.github.io/guides/conda#activating-your-environment):
    Once you create your new environment and install of the Python packages, you
    need to tell `conda` to _activate_ it (more `conda`-speak) so that you can
    actually use the packages.
