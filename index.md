@@ -130,7 +130,7 @@ a.disabled {
             </td>
             <td rowspan=2 class='dark-border-bottom dark-border-right'>Data Visualization Fundamentals</td>
             <td class='dark-border-right'>09/08 (Tu)</td>
-            <td class='dark-border-bottom dark-border-right' style="min-width: 110px">
+            <td class='dark-border-right' style="min-width: 110px">
                <a href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-2/master?filepath=lecture-2A.ipynb" target='blank_'>
                   <img src="https://mybinder.org/badge_logo.svg">
                </a>
