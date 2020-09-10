@@ -135,7 +135,7 @@ a.disabled {
                   <img src="https://mybinder.org/badge_logo.svg">
                </a>
             </td>
-            <td class="dark-border-bottom dark-border-right center">
+            <td class="dark-border-right center">
                <a href="/slides/lecture-2A.html" target='blank_'>
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
