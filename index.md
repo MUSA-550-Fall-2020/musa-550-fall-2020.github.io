@@ -146,7 +146,7 @@ a.disabled {
          <tr class="dark-border-bottom">
             <td class='dark-border-right'>09/10 (Th)</td>
             <td class='dark-border-bottom dark-border-right' style="min-width: 110px">    
-               <a href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-1/master?filepath=lecture-2B.ipynb" target='blank_'>
+               <a href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-2/master?filepath=lecture-2B.ipynb" target='blank_'>
                   <img src="https://mybinder.org/badge_logo.svg">
                </a>
             </td>
