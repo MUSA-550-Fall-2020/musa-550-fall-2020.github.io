@@ -244,12 +244,12 @@ a.disabled {
             <td rowspan=2 class='dark-border-bottom dark-border-right'>Getting Data Part 1: Working with APIs</td>
             <td class='dark-border-right'>09/29 (Tu)</td>
             <td class='dark-border-right' style="min-width: 110px">
-               <a class='disabled'  href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-5/master?filepath=lecture-5.ipynb" target='blank_'>
+               <a href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-5/master?filepath=lecture-5.ipynb" target='blank_'>
                   <img src="https://mybinder.org/badge_logo.svg">
                </a>
             </td>
             <td class="dark-border-right center">
-               <a class='disabled'  href="/slides/lecture-5.html" target='blank_'>
+               <a  href="/slides/lecture-5.html" target='blank_'>
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
             </td>
