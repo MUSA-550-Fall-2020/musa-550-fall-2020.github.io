@@ -237,7 +237,7 @@ a.disabled {
         <tr>
             <td rowspan=2 class="dark-border-bottom dark-border-right center">5</td>
             <td rowspan=2 class="dark-border-bottom dark-border-right center">
-               <a ref="https://github.com/MUSA-550-Fall-2020/week-5" target='blank_'>
+               <a href="https://github.com/MUSA-550-Fall-2020/week-5" target='blank_'>
                   <img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
                </a>
             </td>
