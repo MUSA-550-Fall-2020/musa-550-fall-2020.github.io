@@ -257,7 +257,7 @@ a.disabled {
         </tr>
         <!-- Week 5B -->
          <tr class="dark-border-bottom">
-            <td class='dark-border-right'>10/1 (Th)</td>
+            <td class='dark-border-right'>10/01 (Th)</td>
             <td class='dark-border-bottom dark-border-right' style="min-width: 110px">    
                <a href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-5/master?filepath=lecture-5B.ipynb" target='blank_'>
                   <img src="https://mybinder.org/badge_logo.svg">
