@@ -526,28 +526,43 @@ a.disabled {
             </td>
             <td class='dark-border-bottom'>Assign HW #7 (required)</td>
          </tr>
-         <!-- Week 13 -->
-        <tr class="dark-border-bottom">
-            <td class="dark-border-right center">13</td>
-            <td class="dark-border-right center">
+         <!-- Week 13A -->
+         <tr>
+            <td rowspan=2 class="dark-border-bottom dark-border-right center">13</td>
+            <td rowspan=2 class="dark-border-bottom dark-border-right center">
                <a class='disabled' href="https://github.com/MUSA-550-Fall-2020/week-13" target='blank_'>
                   <img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
                </a>
             </td>
-            <td class='dark-border-bottom dark-border-right'>From Notebooks to the Web: Github Pages, Web Servers, and Dash</td>
+            <td rowspan=2 class='dark-border-bottom dark-border-right'>From Notebooks to the Web: Github Pages, Web Servers, and Dash</td>
             <td class='dark-border-right'>11/24 (Tu)</td>
             <td class='dark-border-right' style="min-width: 110px">
-               <a class='disabled' href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-13/master?filepath=lecture-13.ipynb" target='blank_'>
+               <a class='disabled' href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-13/master?filepath=lecture-13A.ipynb" target='blank_'>
                   <img src="https://mybinder.org/badge_logo.svg">
                </a>
             </td>
             <td class="dark-border-right center">
-               <a class='disabled' href="/slides/lecture-13.html" target='blank_'>
+               <a class='disabled' href="/slides/lecture-13A.html" target='blank_'>
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
             </td>
             <td></td>
         </tr>
+        <!-- Week 13B -->
+         <tr class="dark-border-bottom">
+            <td class='dark-border-right'>12/01 (Tu)</td>
+            <td class='dark-border-bottom dark-border-right' style="min-width: 110px">
+               <a class="disabled" href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-13/master?filepath=lecture-13B.ipynb" target='blank_'>
+                  <img src="https://mybinder.org/badge_logo.svg">
+               </a>
+            </td>
+            <td class="dark-border-bottom dark-border-right center">
+               <a class="disabled" href="/slides/lecture-13B.html" target='blank_'>
+                  <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
+               </a>
+            </td>
+            <td class='dark-border-bottom'></td>
+         </tr>
         <!-- Week 14A -->
          <tr>
             <td rowspan=2 class="dark-border-bottom dark-border-right center">14</td>
@@ -557,7 +572,7 @@ a.disabled {
                </a>
             </td>
             <td rowspan=2 class='dark-border-bottom dark-border-right'>From Notebooks to the Web: Dashboarding with Panel and the PyViz Ecosystem</td>
-            <td class='dark-border-right'>12/01 (Tu)</td>
+            <td class='dark-border-right'>12/03 (Th)</td>
             <td class='dark-border-right' style="min-width: 110px">
                <a class='disabled' href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-14/master?filepath=lecture-14A.ipynb" target='blank_'>
                   <img src="https://mybinder.org/badge_logo.svg">
@@ -568,11 +583,11 @@ a.disabled {
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
             </td>
-            <td></td>
+            <td>Final project proposal due</td>
         </tr>
         <!-- Week 14B -->
          <tr class="dark-border-bottom">
-            <td class='dark-border-right'>12/03 (Th)</td>
+            <td class='dark-border-right'>12/08 (Tu)</td>
             <td class='dark-border-bottom dark-border-right' style="min-width: 110px">
                <a class="disabled" href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-14/master?filepath=lecture-14B.ipynb" target='blank_'>
                   <img src="https://mybinder.org/badge_logo.svg">
@@ -583,17 +598,8 @@ a.disabled {
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
             </td>
-            <td>Final project proposal due</td>
-         </tr>
-         <tr class="dark-border-bottom">
-            <td class='dark-border-right center'>15</td>
-            <td class="dark-border-bottom dark-border-right"></td>
-            <td class='dark-border-bottom dark-border-right'>In-Class Work on Final Project</td>
-            <td class='dark-border-right'>12/08 (Tu)</td>
-            <td class='dark-border-right'></td>
-            <td class='dark-border-right'></td>
             <td></td>
-        </tr>
+         </tr>
     </tbody>
 
 </table>
