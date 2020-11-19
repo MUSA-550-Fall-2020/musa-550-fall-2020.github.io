@@ -524,7 +524,7 @@ a.disabled {
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
             </td>
-            <td class='dark-border-bottom'>Assign HW #7 (required)</td>
+            <td class='dark-border-bottom'><a href="https://github.com/MUSA-550-Fall-2020/assignment-7" target="blank_">Assign HW #7</a> (required)</td>
          </tr>
          <!-- Week 13A -->
          <tr>
