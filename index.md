@@ -515,12 +515,12 @@ a.disabled {
          <tr class="dark-border-bottom">
             <td class='dark-border-right'>11/19 (Th)</td>
             <td class='dark-border-bottom dark-border-right' style="min-width: 110px">
-               <a class="disabled" href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-12/master?filepath=lecture-12B.ipynb" target='blank_'>
+               <a  href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-12/master?filepath=lecture-12B.ipynb" target='blank_'>
                   <img src="https://mybinder.org/badge_logo.svg">
                </a>
             </td>
             <td class="dark-border-bottom dark-border-right center">
-               <a class="disabled" href="/slides/lecture-12B.html" target='blank_'>
+               <a href="/slides/lecture-12B.html" target='blank_'>
                   <img height="48" width="48" src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" />
                </a>
             </td>
