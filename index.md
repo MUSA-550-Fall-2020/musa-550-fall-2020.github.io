@@ -571,7 +571,7 @@ a.disabled {
                   <img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
                </a>
             </td>
-            <td rowspan=2 class='dark-border-bottom dark-border-right'>From Notebooks to the Web: Dashboarding with Panel and the PyViz Ecosystem</td>
+            <td rowspan=2 class='dark-border-bottom dark-border-right'>From Notebooks to the Web: Dashboarding with Panel and the HoloViz Ecosystem</td>
             <td class='dark-border-right'>12/03 (Th)</td>
             <td class='dark-border-right' style="min-width: 110px">
                <a class='disabled' href="https://mybinder.org/v2/gh/MUSA-550-Fall-2020/week-14/master?filepath=lecture-14A.ipynb" target='blank_'>
