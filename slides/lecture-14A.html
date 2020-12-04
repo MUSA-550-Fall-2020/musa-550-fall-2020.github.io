@@ -14324,7 +14324,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Let's-re-visit-our-shootings-app-in-Dash-from-last-week">Let's re-visit our shootings app in Dash from last week<a class="anchor-link" href="#Let's-re-visit-our-shootings-app-in-Dash-from-last-week">&#182;</a></h2><p>From the Jupyter Terminal or the Termina/Anaconda Prompt apps:</p>
+<h2 id="Let's-re-visit-our-shootings-app-in-Dash-from-last-week">Let's re-visit our shootings app in Dash from last week<a class="anchor-link" href="#Let's-re-visit-our-shootings-app-in-Dash-from-last-week">&#182;</a></h2><p>From the Jupyter Terminal or the Terminal/Anaconda Prompt apps:</p>
 <div class="highlight"><pre><span></span><span class="nb">cd</span> dash-altair
 python dash_altair_shootings.py
 </pre></div>
@@ -14514,139 +14514,7 @@ python app.py
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="But-first:-an-introduction-to-Python-classes">But first: an introduction to Python classes<a class="anchor-link" href="#But-first:-an-introduction-to-Python-classes">&#182;</a></h2><p>Let's take a quick look at <a href="http://www.jesshamrick.com/2011/05/18/an-introduction-to-classes-and-inheritance-in-python/">this nice tutorial</a></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Back-to-Panel...">Back to Panel...<a class="anchor-link" href="#Back-to-Panel...">&#182;</a></h2>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Dashboard-apps-in-Panel">Dashboard apps in Panel<a class="anchor-link" href="#Dashboard-apps-in-Panel">&#182;</a></h2><ul>
-<li>Panel contains multiple different APIs to create interactive dashboards. </li>
-<li>See [the docs]*<a href="https://panel.holoviz.org/user_guide/APIs.html">https://panel.holoviz.org/user_guide/APIs.html</a>) for more info</li>
-</ul>
-<p>We'll define our app in a declarative fashion using a <strong>custom Python class</strong> that defines the various components of our dashboard, which include:</p>
-<ul>
-<li>The parameters we want the user to be able to change.</li>
-<li><em>Reactive</em> functions to generate the various charts/maps in our dashboard, based on those input parameters.</li>
-<li>The dependencies between our chart functions and parameters.</li>
-</ul>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Similar-workflow-to-Dash">Similar workflow to Dash<a class="anchor-link" href="#Similar-workflow-to-Dash">&#182;</a></h2><ul>
-<li>User changes some paramters via widgets</li>
-<li>The dashboard knows which charts depends on those parameters</li>
-<li>The necessary functions are executed to properly update the dashboard </li>
-</ul>
-<p>This is a <em>reactive</em> workflow.</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Panel-key-concepts">Panel key concepts<a class="anchor-link" href="#Panel-key-concepts">&#182;</a></h2><ol>
-<li>Panes<ul>
-<li>A Pane wraps external viewable items like Bokeh, Plotly, Vega/Altair, or HoloViews plots, so they can be embedded in a dashboard. When the wrapped object or any parameter changes, a pane will update the view accordingly.</li>
-</ul>
-</li>
-<li>Parameters<ul>
-<li>A wrapper for the values the user selects, which determines which Panes get updated and which data is shown in the dashboard</li>
-</ul>
-</li>
-<li>Panels<ul>
-<li>Layout objects allow combining plots into a Row, Column, Tabs or a Grid.</li>
-</ul>
-</li>
-</ol>
-<p><strong>Overall, the concepts are similar to Dash: a layout piece and a reactive parameter/callback piece</strong></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Default-Templates">Default Templates<a class="anchor-link" href="#Default-Templates">&#182;</a></h2><ul>
-<li>Panel has recently (a few weeks ago!) added default layout templates to provide a simple, well-designed layout for the dashboard. </li>
-<li><strong>Unfortunately</strong>, they don't work when deploying the apps on Binder (see <a href="https://github.com/holoviz/panel/issues/1821">this issue</a>) — we won't use them in our examples, but they look very promising!</li>
-</ul>
-<p>See more: <a href="https://panel.holoviz.org/user_guide/Templates.html">https://panel.holoviz.org/user_guide/Templates.html</a></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="The-Param-library">The Param library<a class="anchor-link" href="#The-Param-library">&#182;</a></h2><ul>
-<li>As we will see, the <code>Param</code> library allows you to declare the parameters of a dashboard in a declarative manner (similar to Dash).</li>
-<li>Declare the type of parameter you need and get the corresponding widget in your dashboard for free!</li>
-<li>Many many examples: <a href="https://panel.holoviz.org/user_guide/Param.html">https://panel.holoviz.org/user_guide/Param.html</a></li>
-</ul>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Great-examples-on-their-documentation">Great examples on their documentation<a class="anchor-link" href="#Great-examples-on-their-documentation">&#182;</a></h2><p>I'd encourage you to spend some time reading through their documentation...</p>
-<ul>
-<li><a href="https://panel.holoviz.org">Documentation homepage</a></li>
-<li><a href="https://panel.holoviz.org/user_guide/index.html">User Guide</a><ul>
-<li>An overview of the concepts powering Panel dashboards</li>
-</ul>
-</li>
-<li><a href="https://panel.holoviz.org/gallery/index.html">App Gallery</a><ul>
-<li>Examples of end-to-end apps using Panel</li>
-</ul>
-</li>
-<li><a href="https://panel.holoviz.org/reference/index.html">Reference Gallery</a><ul>
-<li>Examples (code snippets) for the many different kinds of components possible in Panel dashboards</li>
-</ul>
-</li>
-<li><a href="https://github.com/MarcSkovMadsen/awesome-panel">Awesome Panel</a><ul>
-<li>Github repository of resources and information on Panel</li>
-</ul>
-</li>
-</ul>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Two-example-repositories-on-the-course's-Github">Two example repositories on the course's Github<a class="anchor-link" href="#Two-example-repositories-on-the-course's-Github">&#182;</a></h2>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Example-1:-Philadelphia-shootings">Example 1: Philadelphia shootings<a class="anchor-link" href="#Example-1:-Philadelphia-shootings">&#182;</a></h2><p>Tools: Panel, Hvplot/Holoviews, Altair, Folium</p>
-<p><a href="https://github.com/MUSA-550-Fall-2020/philadelphia-shootings-app">https://github.com/MUSA-550-Fall-2020/philadelphia-shootings-app</a></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Example-2:-NYC-Taxi-Trips">Example 2: NYC Taxi Trips<a class="anchor-link" href="#Example-2:-NYC-Taxi-Trips">&#182;</a></h2><p>Tools: Panel, Hvplot/Holoviews, Altair, Datashader</p>
-<p><a href="https://github.com/MUSA-550-Fall-2020/datashader-nyc-taxi-app">https://github.com/MUSA-550-Fall-2020/datashader-nyc-taxi-app</a></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Web-based-visualization-options-for-the-final-project">Web-based visualization options for the final project<a class="anchor-link" href="#Web-based-visualization-options-for-the-final-project">&#182;</a></h2><ul>
-<li>Github Pages</li>
-<li>Flask/Dash</li>
-<li>Panel</li>
-</ul>
-<p>See notes in this week's repository: <a href="https://github.com/MUSA-550-Fall-2020/week-14/blob/master/WebVisualizationOptions.md">https://github.com/MUSA-550-Fall-2020/week-14/blob/master/WebVisualizationOptions.md</a></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Deployment-Options">Deployment Options<a class="anchor-link" href="#Deployment-Options">&#182;</a></h2><p>See notes in this week's repository: <a href="https://github.com/MUSA-550-Fall-2020/week-14/blob/master/DeploymentOptions.md">https://github.com/MUSA-550-Fall-2020/week-14/blob/master/DeploymentOptions.md</a></p>
+<h2 id="But-first:-an-introduction-to-Python-classes">But first: an introduction to Python classes<a class="anchor-link" href="#But-first:-an-introduction-to-Python-classes">&#182;</a></h2><p>Let's take a quick look at <a href="https://web.archive.org/web/20190730093245/http://www.jesshamrick.com/2011/05/18/an-introduction-to-classes-and-inheritance-in-python/">this nice tutorial</a></p>
 
 </div>
 </div>
